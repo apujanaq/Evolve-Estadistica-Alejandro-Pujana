@@ -1,0 +1,20 @@
+Regresion Lineal — Metricas de Evaluacion
+==================================================
+
+Metrica               Train           Test
+------------------------------------------
+MAE          $    7,681.42 $    7,560.99
+RMSE         $   11,360.83 $   11,207.17
+R2                  0.8104        0.8173
+
+Interpretacion:
+  MAE_test = $7,560.99 USD
+  En promedio el modelo se equivoca en ese monto al predecir
+  el monto del prestamo sobre datos no vistos.
+
+  R2_test = 0.8173
+  El modelo explica el 81.7% de la
+  variabilidad del monto del prestamo en el test set.
+
+  Diferencia R2 train-test = -0.0070
+  Sin overfitting detectable.
