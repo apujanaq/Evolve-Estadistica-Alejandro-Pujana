@@ -1,0 +1,32 @@
+Analisis del Residuo — Ejercicio 4
+=======================================================
+
+ESTADISTICOS DESCRIPTIVOS
+----------------------------------------
+  N observaciones validas : 1,827
+  Media                   : 0.127078  (ideal: 0)
+  Desviacion tipica       : 3.2220   (sigma teorico: 3.5)
+  Asimetria (skewness)    : -0.0509  (ideal: 0)
+  Curtosis en exceso      : -0.0610  (ideal: 0)
+
+TEST DE NORMALIDAD — Jarque-Bera
+----------------------------------------
+  Estadistico : 1.1013
+  p-value     : 0.576561
+  H0          : los residuos siguen una distribucion normal
+  Conclusion  : No se rechaza H0 (alpha=0.05)
+
+TEST DE ESTACIONARIEDAD — ADF
+----------------------------------------
+  Estadistico ADF : -39.9160
+  p-value         : 0.000000
+  H0              : existe raiz unitaria (no estacionario)
+  Conclusion      : Se rechaza H0 -> estacionario (alpha=0.05)
+
+INTERPRETACION GENERAL
+----------------------------------------
+  El residuo presenta media=0.1271 (cercana a 0) y std=3.2220
+  (el sigma teorico conocido es 3.5).
+  Normalidad (JB)    : si cumple
+  Estacionariedad(ADF): si cumple
+  Ver ACF/PACF para autocorrelacion residual.

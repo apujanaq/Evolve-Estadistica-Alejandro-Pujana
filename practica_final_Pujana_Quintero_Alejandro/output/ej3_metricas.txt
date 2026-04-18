@@ -1,0 +1,15 @@
+Regresion Lineal Multiple — Metricas de evaluacion
+==================================================
+  MAE  : 1.166462
+  RMSE : 1.461243
+  R2   : 0.689672
+
+Referencia del profesor (semilla=42):
+  MAE  ~ 1.20 (+-0.20)
+  RMSE ~ 1.50 (+-0.20)
+  R2   ~ 0.80 (+-0.05)
+
+Validacion sklearn:
+  MAE  sklearn: 1.166462  | diff: 0.00000000
+  RMSE sklearn: 1.461243 | diff: 0.00000000
+  R2   sklearn: 0.689672  | diff: 0.00000000

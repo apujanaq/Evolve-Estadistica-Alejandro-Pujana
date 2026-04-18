@@ -1,0 +1,18 @@
+Regresion Lineal Multiple — Coeficientes ajustados
+==================================================
+  Intercepto (b0): 4.864995
+  b1 (feature 1): 2.063618
+  b2 (feature 2): -1.117038
+  b3 (feature 3): 0.438517
+
+Coeficientes reales de referencia:
+  Intercepto (b0): 5.000000
+  b1 (feature 1): 2.000000
+  b2 (feature 2): -1.000000
+  b3 (feature 3): 0.500000
+
+Validacion sklearn:
+  Intercepto (b0): NumPy=4.864995 | sklearn=4.864995 | diff=0.00000000
+  b1 (feature 1): NumPy=2.063618 | sklearn=2.063618 | diff=0.00000000
+  b2 (feature 2): NumPy=-1.117038 | sklearn=-1.117038 | diff=0.00000000
+  b3 (feature 3): NumPy=0.438517 | sklearn=0.438517 | diff=0.00000000
